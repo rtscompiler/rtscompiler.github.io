@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>DCS290/292</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-maizi.css" />
+  <link rel="stylesheet" href="css/content-style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand" style="color:white">
+          <b>SYSU-DCS290/292：编译原理&实验课程(2023~2024学年春季学期)</b></a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading" style="color: black;font-size: 18px;font-weight: bold;">课程基本信息</div>
+          <div class="panel-body">
+            <p style="font-size: 18px; font-weight: bold;">- 课程时间与地点</p>
+            <ul>
+              <li style="font-size: 16px;">理论课：</li>
+              <ul>
+                <li style="font-size: 16px;">星期二 14:20-16:00 (1~9周); 星期四 14:20-16:00 (1~18周)</li>
+                <li style="font-size: 16px;">教学大楼C202</li>
+              </ul>
+              <li style="font-size: 16px;">实验课：</li>
+              <ul>
+                <li style="font-size: 16px;">星期四 16:30-18:10 (1~18周)</li>
+                <li style="font-size: 16px;">实验中心大楼B203</li>
+              </ul>
+            </ul>
+
+            <p style="font-size: 18px; font-weight: bold;">- 教师</p>
+            <ul>
+              <li style="font-size: 16px;">Instructor • <a href="https://cse.sysu.edu.cn/content/6598"
+                  style="color: #09c" target="_blank">赵帅</a> • zhaosh56@mail.sysu.edu.cn</li>
+            </ul>
+            <p style="font-size: 18px; font-weight: bold;">- 助教</p>
+            <ul>
+              <li style="font-size: 16px;">TA • <a href="#" style="color: #09c">苏若娴</a> • surx3@mail2.sysu.edu.cn</li>
+              <li style="font-size: 16px;">TA • <a href="#" style="color: #09c">陈振东</a> • chenzhd29@mail2.sysu.edu.cn</li>
+              <li style="font-size: 16px;">TA • <a href="#" style="color: #09c">易辉轩</a> • yihx3@mail2.sysu.edu.cn</li>
+              <li style="font-size: 16px;">TA • <a href="#" style="color: #09c">姜婕妤</a> • 2416980629@qq.com</li>
+              <li style="font-size: 16px;">TA • <a href="#" style="color: #09c">张美旋</a> • zhangmx67@mail2.sysu.edu.cn</li>
+              <li style="font-size: 16px;">TA • <a href="#" style="color: #09c">陈炜琰</a> • chenwy93@mail2.sysu.edu.cn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading" style="color: black;font-size: 18px;font-weight: bold;">课程公告</div>
+          <div class="panel-body">
+            <div class="col-md-12">
+
+              <div class="media well">
+                <div class="media-body">
+                  <h4 class="media-heading" style="line-height: 25px; font-size: 16px;"><img src="./images/announcement_icon.png" height="20">
+                    暂无公告
+                  </h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="panel-heading" style="color: black;font-size: 18px;font-weight: bold;">课程安排、课件、作业等</div>
+      </div>
+      <div class="container" style="overflow: auto">
+        <table class="table table-bordered width=100%" style="font-size:14px;">
+          <thead>
+            <tr>
+              <th width="270px">日期</th>
+              <th width="400px">课件</th>
+              <th>HW/Project/Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background-color:aliceblue">
+              <td class="center" colspan="3">理论部分</td>
+            </tr>
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week1—2.27</td>
+              <td class="center" style="vertical-align: middle;"><a style="color: #09c;" href="./files/slides/0.Introduction.pdf"
+                  target="_blank"><img src="./images/PDF_icon.png" height="20">0. Overview</a></td>
+              <td class="center" style="vertical-align: middle;">教材获取：<a style="color: #09c;" href="https://pan.baidu.com/s/1oJYICQhAzmb5bKLLhdnE3Q"
+                  target="_blank">https://pan.baidu.com/s/1oJYICQhAzmb5bKLLhdnE3Q</a> <br> 提取码：u9m6</td>
+            </tr>
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week1—2.29</td>
+              <td class="center" style="vertical-align: middle;"><a style="color: #09c;" href="./files/slides/1.Lexical_Analysis_Intro_RE.pdf"
+                  target="_blank"><img src="./images/PDF_icon.png" height="20">1. Lexical Analysis-Intro&RE</a>
+              </td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+
+            <!-- <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week2—3.5</td>
+              <td class="center" style="vertical-align: middle;"><a style="color: #09c;" href="./files/slides/2.Lexical Analysis_NFA_DFA.pdf"
+                  target="_blank"><img src="./images/PDF_icon.png" height="20">2. Lexical Analysis-NFA&DFA</a></td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr> -->
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week2—3.5</td>
+              <td class="center" style="vertical-align: middle;">2. Lexical Analysis-NFA&DFA</a></td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+
+            <!-- <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;"><img src="./images/finish_icon.png" height="20"> Week3—3.7</td>
+              <td class="center" style="vertical-align: middle;"><a style="color: #09c;" href="./files/exercise/Exercise 1.pdf"
+                target="_blank"><img src="./images/PDF_icon.png" height="20">Exercise1</a></td>
+              <td class="center" style="vertical-align: middle;"><a style="color: #09c;" href="./files/assignment/Assignment 1.pdf"
+                  target="_blank"><img src="./images/PDF_icon.png" height="20">Assignment 1</a>&nbsp;
+                <a style="color: #09c;" href="./files/assignment/Assignment1-Solution.pdf"
+                target="_blank"><img src="./images/PDF_icon.png" height="20">Assignment 1-Solution</a>
+              </td>
+            </tr> -->
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week2—3.7</td>
+              <td class="center" style="vertical-align: middle;">2. Lexical Analysis-NFA&DFA</a></td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week3—3.12</td>
+              <td class="center" style="vertical-align: middle;">Exercise</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week3—3.14</td>
+              <td class="center" style="vertical-align: middle;">3. Syntax Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week4—3.19</td>
+              <td class="center" style="vertical-align: middle;">3. Syntax Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week4—3.21</td>
+              <td class="center" style="vertical-align: middle;">3. Syntax Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week5—3.26</td>
+              <td class="center" style="vertical-align: middle;">3. Syntax Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week5—3.28</td>
+              <td class="center" style="vertical-align: middle;">3. Syntax Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week6—4.2</td>
+              <td class="center" style="vertical-align: middle;">3. Syntax Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week6—4.4</td>
+              <td class="center" style="vertical-align: middle;">3. Syntax Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week7—4.9</td>
+              <td class="center" style="vertical-align: middle;">3. Syntax Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week7—4.11</td>
+              <td class="center" style="vertical-align: middle;">Exercise</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week8—4.16</td>
+              <td class="center" style="vertical-align: middle;">3. Semantic Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week8—4.18</td>
+              <td class="center" style="vertical-align: middle;">3. Semantic Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week9—4.23</td>
+              <td class="center" style="vertical-align: middle;">3. Semantic Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week9—4.25</td>
+              <td class="center" style="vertical-align: middle;">Exercise</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week10—5.2</td>
+              <td class="center" style="vertical-align: middle;">3. Semantic Analysis</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week11—5.9</td>
+              <td class="center" style="vertical-align: middle;">4. Intermediate Code</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week12—5.16</td>
+              <td class="center" style="vertical-align: middle;">4. Intermediate Code</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week13—5.23</td>
+              <td class="center" style="vertical-align: middle;">5. Code Optimization</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week14—5.30</td>
+              <td class="center" style="vertical-align: middle;">5. Code Optimization</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week15—6.6</td>
+              <td class="center" style="vertical-align: middle;">5. Code Optimization</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week16—6.13</td>
+              <td class="center" style="vertical-align: middle;">6. Target Code Generation</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week17—6.20</td>
+              <td class="center" style="vertical-align: middle;">6. Target Code Generation</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week18—6.27</td>
+              <td class="center" style="vertical-align: middle;">7. Review</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week19</td>
+              <td class="center" style="vertical-align: middle;">Final Exam</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week20</td>
+              <td class="center" style="vertical-align: middle;">Final Exam</td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+
+
+            <tr style="background-color:aliceblue">
+              <td class="center" colspan="3">实验部分</td>
+            </tr>
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week1—2.29</td>
+              <td class="center" style="vertical-align: middle;"><a style="color: #09c;" href="./files/lab/lab0/实验一、编译原理预备实验.pdf"
+                  target="_blank"><img src="./images/PDF_icon.png" height="20">LAB 0 编译原理预备实验</a>
+                <br><br><a style="color: #09c;" href="./files/lab/lab0/Lab0_markingForm.pdf" target="_blank"><img
+                    src="./images/PDF_icon.png" height="20">LAB 0 评分标准</a>
+              </td>
+              <td class="center" style="vertical-align: middle;">
+                jdk&IDE链接：<a style="color: #09c;" href="https://pan.baidu.com/s/1At0lg8NdVGsdQGfTPd-32g"
+                  target="_blank">https://pan.baidu.com/s/1At0lg8NdVGsdQGfTPd-32g</a> 提取码：j2dp
+                <br>
+              </td>
+            </tr>
+
+            <tr class="hide-table">
+              <td class="center" style="vertical-align: middle;">Week5—3.28</td>
+              <td class="center" style="vertical-align: middle;">LAB 1 后缀表达式<i>Postfix</i></td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr>
+              <td class="center" style="vertical-align: middle;">Week10—4.30</td>
+              <td class="center" style="vertical-align: middle;">LAB 2 基于表达式的计算器<i>EXPR-Eval</i></td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+
+            <tr>
+              <td class="center" style="vertical-align: middle;">Week14—5.28</td>
+              <td class="center" style="vertical-align: middle;">LAB 3 Oberon-0逆向工程工具<i>ROSE</i></td>
+              <td class="center" style="vertical-align: middle;"></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-muted center">
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</body>
+
+</html>
